@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while [ 1 ] ; do
+	echo -e "\f"
+	date
+	nslookup www.bbc.co.uk 192.168.31.6
+	sleep 2
+done
